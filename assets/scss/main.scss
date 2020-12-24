@@ -1,0 +1,33 @@
+//******************************************************************
+
+// Article is down below
+// https://itnext.io/structuring-your-sass-projects-c8d41fa55ed4
+
+//******************************************************************
+
+//Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/function';
+
+//Vendor
+@import 'vendor/bootstrap';
+
+
+//Base
+@import 'base/reset';
+@import 'base/typogrophy';
+
+//Components
+@import 'components/buttons';
+@import 'components/headings';
+@import 'components/slider';
+
+
+//Pages
+@import 'pages/contact';
+@import 'pages/home';
+
+//Themes
+@import 'themes/admin';
+@import 'themes/dark';
